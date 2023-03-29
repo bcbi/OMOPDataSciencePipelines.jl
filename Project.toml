@@ -1,6 +1,6 @@
 name = "OMOPDataSciencePipelines"
 uuid = "ee9362c2-d3f4-453d-b79d-84a32195c159"
-authors = ["Dilum Aluthge <dilum@aluthge.com> and contributors"]
+authors = ["Dilum Aluthge <dilum@aluthge.com> and Ashlin Harris <ashlin_harris@brown.edu>"]
 version = "1.0.0-DEV"
 
 [deps]
