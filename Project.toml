@@ -1,10 +1,21 @@
 name = "OMOPDataSciencePipelines"
 uuid = "ee9362c2-d3f4-453d-b79d-84a32195c159"
-authors = ["Dilum Aluthge <dilum@aluthge.com> and contributors"]
+authors = ["Dilum Aluthge <dilum@aluthge.com> and Ashlin Harris <ashlin_harris@brown.edu>"]
 version = "1.0.0-DEV"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+ConfParser = "88353bc9-fd38-507d-a820-d3b43837d6b9"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+PkgCite = "50d0efc5-baaf-4329-a409-faca2d9bd902"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PreprocessMD = "f785c8c6-3d80-4813-989a-2eb5f27d6bef"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 [compat]
-julia = "1.6"
+julia = "1.8"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

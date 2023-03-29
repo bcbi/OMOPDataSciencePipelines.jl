@@ -3,3 +3,7 @@
 *.jl.mem
 Manifest.toml
 /docs/build/
+*.swp
+.DS_Store
+Example/Input/*
+Example/Output/*
