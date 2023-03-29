@@ -2,8 +2,8 @@ using Pkg
 
 Pkg.activate("./Project.toml")
 
-include("src/InformaticsPipeline.jl")
-using .InformaticsPipeline
+include("src/OMOPDataSciencePipelines.jl")
+using .OMOPDataSciencePipelines
 
 main()
 
